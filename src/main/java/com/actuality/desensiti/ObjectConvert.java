@@ -30,6 +30,7 @@ public class ObjectConvert {
     public static boolean desensitize;
 
     @Value("${desensitize:true}")
+    // non static
     public void setDesensitize(boolean desensitize) {
         ObjectConvert.desensitize = desensitize;
     }
