@@ -13,6 +13,8 @@ public class UserTest {
         user.setYyy("第三方的科技管理的国家的怒然");
         User user1 = ObjectConvert.parseObject(user, User.class);
         System.out.println(JSONObject.toJSONString(user1));
+        // https://github.com/Heiffeng/sensitive-util
+        // https://github.com/chenhaiyangs/mybatis-encrypt-plugin
     }
 
     @Data
